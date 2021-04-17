@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 
 const server = express();
 
-server.get('/schedule/:league', async (request, response) => {
+server.get('/tabela/:league', async (request, response) => {
     const { league } = request.params;
 
     const browser = await puppeteer.launch();

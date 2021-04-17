@@ -18,10 +18,10 @@ então `yarn start` se estiver usando *Yarn*.
 
 ## 📚 Funcionamento
 
-Requisitando com o método *GET* o **endpoint /schedule/nome-do-cameonato** e passando como parâmetro o nome do campeonato que deseja 
+Requisitando com o método *GET* o **endpoint /tabela/nome-do-cameonato** e passando como parâmetro o nome do campeonato que deseja 
 ver a tabela é devolvido um JSON com um Array de objetos, contendo o nome e a posição atual do time na classificação. 
 
-Um exemplo simples seria: **http://localhost:3000/schedule/brasileirao-serie-a**
+Um exemplo simples seria: **http://localhost:3000/tabela/brasileirao-serie-a**
 
 Hoje os campeonatos possíveis para consulta passando como parâmetro são:
 
